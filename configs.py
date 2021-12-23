@@ -12,7 +12,7 @@ if not path.exists("search"):
 
 
 class Configs:
-    API_ID = int(getenv("API_ID", "0"))
+    API_ID = int(getenv("API_ID", ""))
     API_HASH = getenv("API_HASH", "abc123")
     BOT_TOKEN = getenv("BOT_TOKEN", "123:abc")
     OWNER_ID = int(getenv("OWNER_ID", "0123"))
